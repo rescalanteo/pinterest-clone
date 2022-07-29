@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 1;    
+    align-items: center;
+    background-color: #fff;
+}
+
+.navleft{
+    display: contents;
+}
+
+.nav_logo{
+    width: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.material-icons{
+    margin-left: 5px;
+    opacity: 56%;    
+}
+
+.profilepic{
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.searchbar{
+    flex-grow: 4;
+}
+
+.banner_button1{
+    color: white;
+    background-color: black;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner_button2{
+    color: black;
+    background-color: white;
+    border: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.searchbar{
+    margin-right: 20px;
+}
+
+#bar{
+    width: 100%;
+    border-radius: 30px;
+    height: 45px;
+    background-color: #efefef;
+    color: #ddd;
+    border: none;
+    font-size: 15px;
+    padding-left: 16px;
+}
+
+
+
+.grid-container{
+    columns: 7 230px;
+    gap: 1rem;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.card-image{
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+    border-radius: 25px;
+} 
+
+.card-image:hover{
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+.bottom-area{
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+    color: #404040;
+    font-size: 14px;
+}
+
+.botprofilepic{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+p{
+    display: flex;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 23px;
+    z-index: 1;    
+    align-items: center;
+}
+
+.bot_button3{
+    height: 56px;
+    width: 56px;
+    position: fixed;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: #fff;
+    color: black;
+    font-type: Helvetica, Arial;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    border: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 0px 8px);
+}
+
+.bot_button3:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
